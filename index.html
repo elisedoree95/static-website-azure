@@ -9,8 +9,23 @@
 <body>
   <div class="container">
     <h1>Hello, Azure!</h1>
-    <p>This is a sample static website deployed from GitHub.</p>
-    <button onclick="sayHello()">Click Me</button>
+    <p>This is a sample static website deployed from GitHub to Azure Static Web Apps.</p>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a>
+    </nav>
+
+    <!-- Contact Form -->
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your name" required /><br>
+      <input type="email" name="email" placeholder="Your email" required /><br>
+      <textarea name="message" placeholder="Your message" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+    <div id="response"></div>
   </div>
 
   <script src="script.js"></script>

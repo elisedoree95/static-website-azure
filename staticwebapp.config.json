@@ -1,0 +1,21 @@
+{
+    "routes": [
+      {
+        "route": "/about.html",
+        "headers": {
+          "Cache-Control": "public, max-age=3600"
+        }
+      },
+      {
+        "route": "/",
+        "headers": {
+          "Cache-Control": "public, max-age=3600"
+        }
+      }
+    ],
+    "mimeTypes": {
+      ".js": "application/javascript",
+      ".css": "text/css"
+    }
+  }
+  
